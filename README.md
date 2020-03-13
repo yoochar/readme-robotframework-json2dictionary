@@ -14,6 +14,7 @@ pip install robotframework-json2dictionary
 
 ```python
 # - Example:
+Library    JsonToDict
 #json_string as below:
 {
 	  	"SuperMarket": {
