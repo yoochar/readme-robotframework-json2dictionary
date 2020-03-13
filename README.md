@@ -71,7 +71,7 @@ pip install robotframework-json2dictionary
 
 # - How to use keyword in robotframework
 ${dataDict}=   Convert Json To Dictionary    ${json_string}
-
+Log To Console    ${dataDict}
 
 # - Console display
 {'Fruit': [{'Name': 'Apple', 'Manufactured': 'USA', 'price': 7.99}
